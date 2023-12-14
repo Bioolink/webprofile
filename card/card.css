@@ -12,7 +12,6 @@ body{
 }
 
 
-.logo{}
 
 nav{
     display: flex;
@@ -141,6 +140,9 @@ nav ul li a{
 
 @media screen and (width:576px) {
 
+    body{
+        background:none ;
+    }
     .slider{
         gap: 5rem;
     }
