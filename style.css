@@ -497,6 +497,11 @@ nav ul li a:hover{
     .btn{
         margin-left: 40%;
     }
+    .page2{
+        display: none;
+    }
+
+
 }
 
 
@@ -541,7 +546,7 @@ nav ul li a:hover{
      background-size: cover;
      display: flex;
      position: absolute;
-     top: 850px;
+     top: 900px;
  }
  
 
