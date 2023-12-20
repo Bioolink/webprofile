@@ -137,7 +137,7 @@ nav ul li a{
     backdrop-filter: blur(10px);
 }
 
-
+/* @media screen and (max-width:576px) */
 @media screen and (max-width:576px) {
 
     body{
@@ -145,10 +145,10 @@ nav ul li a{
     }
     .slider{
         gap: 2rem;
-    }
+    }                                                                                               
 
     .page{
-        /* background-color: salmon; */
+        background-color: white;
         /* color: blue; */
     }
 
@@ -178,3 +178,39 @@ nav ul li a{
     }
 
 }
+
+
+
+
+
+
+
+
+
+/*untuk layar device berukuran kecil*/
+/* @media screen and (min-width: 450px) {
+    .light_blue, .green {
+        width: 50%
+    }
+ } */
+  
+ /*untuk layar device berukuran sedang*/
+ /* @media screen and (min-width: 550px) {
+    .red {
+        width: 33%;
+    }
+  
+    .orange {
+        width: 67%;
+    }
+ } */
+  
+ /*untuk layar device berukuran besar*/
+ /* @media screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ } */
+ 
